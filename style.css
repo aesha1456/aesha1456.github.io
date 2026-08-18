@@ -259,6 +259,30 @@ code {
   font-size: 0.95rem;
 }
 
+.rank-badge {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.35rem;
+  width: fit-content;
+  margin: 0.75rem auto 0;
+  padding: 0.3rem 0.75rem;
+  border: 1px solid var(--accent);
+  border-radius: 999px;
+  background: var(--accent-soft);
+  color: var(--accent);
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+}
+
+.rank-badge svg {
+  width: 14px;
+  height: 14px;
+  fill: currentColor;
+  flex-shrink: 0;
+}
+
 .profile-meta {
   margin-top: 1rem;
   padding-top: 1rem;
